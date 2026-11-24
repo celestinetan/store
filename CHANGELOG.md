@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1 – 24 Nov 2026
+- Blocked AI training crawlers in robots.txt (AI search assistants still allowed), added noai/noimageai tags and a not-for-AI-training notice.
+
 ## 1.3 – 24 Nov 2026
 - Search and AI search: clearer page title and description, structured data for the artist and all 17 prints, sitemap with images, robots.txt welcoming search and AI crawlers, and llms.txt with the key facts.
 

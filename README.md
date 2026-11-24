@@ -24,5 +24,8 @@ This page is shared as information about the prints and is provided "as is", wit
 ## Report a mistake
 Write to hello@celestinetan.com.
 
+## AI use
+The artwork may not be used to train AI models. AI training crawlers are blocked in robots.txt.
+
 ## Licence
 The code (HTML and CSS) is MIT licensed. The artwork, photos and signature in `img/` are © 2026 Celestine Tan, all rights reserved. See [LICENSE](LICENSE).
