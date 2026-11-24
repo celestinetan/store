@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.2 – 24 Nov 2026
+- Footer: one contact link; Stubli link removed.
+
 ## 1.2.1 – 24 Nov 2026
 - Tab icon is now the hand-drawn CT monogram.
 
