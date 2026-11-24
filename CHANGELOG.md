@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4 – 25 Nov 2026
+- Replaced the framed artwork images with creativehub's own oak-frame mockups, so the gallery shows exactly what buyers receive.
+
 ## 1.3.2 – 25 Nov 2026
 - Fixed artwork links: the shop renamed its product addresses (switzerland-live-sketched-…) after the drop was renamed, so clicks landed on the shop home page.
 
