@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.1 – 24 Nov 2026
+- Tab icon is now the hand-drawn CT monogram.
+
 ## 1.2 – 24 Nov 2026
 - Added GoatCounter (private, cookie-free visit counts) and click counts on each print link.
 
