@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1 – 24 Nov 2026
+- The artist section is now a signed letter from Celestine, set in Newsreader, with a new portrait.
+- Signature removed from the header; menu labels in title case.
+
 ## 1.0.1 – 24 Nov 2026
 - Fixed the Terms and Privacy links in the footer.
 - Gallery now served at store.celestinetan.com.

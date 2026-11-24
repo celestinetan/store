@@ -20,7 +20,7 @@
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -39,7 +39,7 @@ h1,h2{font-family:'Inter Tight',Inter,sans-serif}
 header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding-top:28px;padding-bottom:28px}
 .logo{display:flex;align-items:center;min-height:44px}
 .logo img{height:40px;width:auto}
-nav{display:flex;gap:32px;align-items:center;font-size:15px;flex-wrap:wrap}
+nav{margin-left:auto;display:flex;gap:32px;align-items:center;font-size:15px;flex-wrap:wrap}
 nav a{text-decoration:none;padding:12px 0}
 .cart{width:44px;height:44px;display:flex;align-items:center;justify-content:center}
 
@@ -56,11 +56,13 @@ h1{margin:0;font-weight:600;font-size:clamp(48px,6.4vw,96px);line-height:.98;let
 .heroart figcaption{margin-top:-5%;padding:0 6.6%;font-size:14px;color:#5E5A53}
 .heroart figcaption a{font-weight:500;text-underline-offset:4px}
 
-.artist{display:flex;flex-wrap:wrap;gap:32px 80px;align-items:flex-start;padding-bottom:120px}
-.artist h2{margin:0;flex:1 1 100%;font-weight:600;font-size:20px;letter-spacing:-.01em;line-height:1.3;color:#5E5A53}
-.headshot{flex:0 0 240px;width:240px;height:240px;object-fit:cover}
-.artist p{margin:0;flex:1 1 420px;max-width:800px;font-size:24px;line-height:1.5;color:#24221F}
-
+.note{max-width:1360px;width:calc(100% - 80px);margin:0 auto 120px;padding:56px;border:1px solid #D8D5CE;background:#F8F7F3;display:flow-root}
+.note .headshot{float:left;width:260px;height:325px;object-fit:cover;margin:6px 44px 20px 0}
+.notebody{display:flow-root;max-width:760px}
+.note h2{margin:0 0 16px;font-weight:600;font-size:18px;letter-spacing:-.01em;line-height:1.3;color:#5E5A53}
+.notetext{font-family:'Newsreader',Georgia,serif;font-size:23px;line-height:1.5;color:#24221F}
+.notetext p{margin:0 0 1em}.notetext p.warm{margin:0}
+.signoff{height:60px;width:auto;margin-top:12px}
 .room{padding-top:72px;padding-bottom:140px;border-top:1px solid #D8D5CE}
 .roomhead{display:flex;flex-wrap:wrap;gap:24px 80px;margin-bottom:104px}
 .roomhead h2{margin:0;flex:0 0 320px;font-weight:600;font-size:44px;letter-spacing:-.02em;line-height:1}
@@ -93,9 +95,12 @@ nav .cart{margin-left:auto;margin-right:-10px}
 .hero{padding-top:24px;padding-bottom:72px;gap:28px}
 .heroart{order:-1;margin:0 -20px;flex-basis:100%}
 .lede{display:none}.lede-m{display:block}
-.headshot{flex-basis:160px;width:160px;height:160px}
-.artist{padding-bottom:72px}
-.artist p{font-size:20px}
+.note{width:calc(100% - 40px);padding:20px;margin-bottom:64px}
+.note .headshot{width:120px;height:150px;margin:5px 14px 4px 0}
+.notebody{display:block}
+.note h2{margin-bottom:10px}
+.notetext{font-size:17.5px}
+.signoff{height:44px}
 .room{padding-top:48px;padding-bottom:88px}
 .roomhead{margin-bottom:48px;gap:16px}
 .roomhead h2{flex:1 1 100%;font-size:34px}
@@ -112,11 +117,10 @@ nav .cart{margin-left:auto;margin-right:-10px}
 <body>
 <a class="skip" href="#works">Skip to the works</a>
 <header class="wrap pad">
-  <a class="logo" href="#top" aria-label="Celestine Tan, home"><img src="img/signature.png" alt="Celestine Tan" width="700" height="145"></a>
   <nav aria-label="Main">
-    <a href="#works">The works</a>
-    <a href="#prints">Prices &amp; framing</a>
-    <a href="#artist">The artist</a>
+    <a href="#works">The Works</a>
+    <a href="#prints">Prices &amp; Framing</a>
+    <a href="#artist">The Artist</a>
     <a class="cart" href="https://www.createdrops.com/summer-autumn-2026-2" aria-label="Cart, opens the shop"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></a>
   </nav>
 </header>
@@ -130,7 +134,7 @@ nav .cart{margin-left:auto;margin-right:-10px}
     <p class="lede-m">17 sketches, each drawn live on location. Unframed from €89, framed in oak from €164.</p>
     <div class="ctas">
       <a class="btn solid" href="#works">See all seventeen works</a>
-      <a class="btn" href="#prints">Prices &amp; framing</a>
+      <a class="btn" href="#prints">Prices &amp; Framing</a>
     </div>
   </div>
   <figure class="heroart">
@@ -139,10 +143,16 @@ nav .cart{margin-left:auto;margin-right:-10px}
   </figure>
 </section>
 
-<section id="artist" class="artist wrap pad">
-  <h2>The artist</h2>
-  <img class="headshot" src="img/headshot.webp" alt="Celestine Tan" width="720" height="720" loading="lazy">
-  <p>Celestine Tan is a self-taught Malaysian-Singaporean artist. He works in ink and watercolour, sketching on location wherever he travels to. He is currently based in Zurich, Switzerland.</p>
+<section id="artist" class="note">
+  <img class="headshot" src="img/headshot.webp" alt="Celestine Tan in front of Mount Fuji" width="800" height="1000" loading="lazy">
+  <div class="notebody">
+    <h2>The Artist</h2>
+    <div class="notetext">
+      <p>Hi there! Thank you for stopping by! I’m Celestine—a self-taught, Malaysian-born Singaporean artist now living in Switzerland. I love travelling, spending time outdoors, and sketching the world as I see it, working primarily in ink and watercolour. Each piece in this gallery captures a moment or place from my journeys. I hope you enjoy exploring my work—and perhaps find something to bring into your own space.</p>
+      <p class="warm">Warmly,</p>
+    </div>
+    <img class="signoff" src="img/signature.png" alt="Celestine" width="700" height="145">
+  </div>
 </section>
 
 <div id="works" class="wrap">
@@ -326,7 +336,7 @@ nav .cart{margin-left:auto;margin-right:-10px}
 
 <section id="prints" class="pad">
   <div class="in">
-    <h2>Prices &amp; framing</h2>
+    <h2>Prices &amp; Framing</h2>
     <div class="facts">
       <div><h3>Paper</h3><p>Giclée print on Hahnemühle Photo Rag: 100% cotton, matte and archival, so the watercolour stays true.</p></div>
       <div><h3>Sizes</h3><p>From A4 up to 100 × 70 cm, depending on the work. Unframed prints cost €89 to €399.</p></div>
