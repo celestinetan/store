@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5 – 25 Nov 2026
+- Curated hang in three real print sizes, shown with creativehub's mockup for each size: large (100 × 70 cm) for Zürichhorn, Opera House, Rhine Falls, Kapellbrücke and St. John's Abbey; medium (60 × 40 or 50 × 50 cm); small (35 × 28 cm).
+- Captions now say the size shown. Works keep their real proportions on phones too.
+
 ## 1.4 – 25 Nov 2026
 - Replaced the framed artwork images with creativehub's own oak-frame mockups, so the gallery shows exactly what buyers receive.
 
