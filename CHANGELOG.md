@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2 – 24 Nov 2026
+- Added GoatCounter (private, cookie-free visit counts) and click counts on each print link.
+
 ## 1.1 – 24 Nov 2026
 - The artist section is now a signed letter from Celestine, set in Newsreader, with a new portrait.
 - Signature removed from the header; menu labels in title case.

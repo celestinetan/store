@@ -11,6 +11,9 @@ The gallery page for Celestine Tan's art prints: 17 ink and watercolour sketches
 2. Each work links to its print page on creativehub, where buyers choose a size and frame and check out.
 3. Lists paper, sizes, framing and delivery in one place.
 
+## Privacy
+Visits are counted with GoatCounter, which uses no cookies and stores no personal data.
+
 ## Known limits
 - Prices on this page are copied by hand from creativehub. creativehub's checkout is always the final price.
 - Delivery cost is shown at checkout, based on the buyer's country.
