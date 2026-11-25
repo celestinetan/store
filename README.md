@@ -2,7 +2,7 @@
 
 The gallery page for Celestine Tan's art prints: 17 ink and watercolour sketches drawn outdoors across Switzerland in 2026.
 
-**Live:** https://store.celestinetan.com/
+**Live:** https://celestinetan.ch/
 
 > Prints are sold and fulfilled through creativehub and theprintspace. Their terms apply to every order. See [Disclaimer & Terms of Use](#disclaimer--terms-of-use).
 
